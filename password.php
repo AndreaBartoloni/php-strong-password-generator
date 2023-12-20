@@ -31,10 +31,6 @@
                 $createPassword = generatePassword(intval($_GET['password']));
             }
         }
-
-        
-
-        
     
     ?>
 

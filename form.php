@@ -12,6 +12,20 @@
         <span>Lunghezza Password:</span>
         <input type="number" name="password">
         <button type="submit">invia</button>
+        <div>
+            <input type="checkbox">
+            <span>Numeri</span>
+        </div>
+        <div>
+            <input type="checkbox">
+            <span>lettere</span>
+        </div>
+        <div>
+            <input type="checkbox">
+            <span>simboli</span>
+        </div>
+        
+        
     </form>
     
 </body>
