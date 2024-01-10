@@ -10,18 +10,18 @@
 
     <form action="password.php" method="get">
         <span>Lunghezza Password:</span>
-        <input type="number" name="password">
+        <input type="number" name="password" >
         <button type="submit">invia</button>
         <div>
-            <input type="checkbox">
+            <input type="checkbox" name="number">
             <span>Numeri</span>
         </div>
         <div>
-            <input type="checkbox">
+            <input type="checkbox" name="letter" >
             <span>lettere</span>
         </div>
         <div>
-            <input type="checkbox">
+            <input type="checkbox" name="simbol">
             <span>simboli</span>
         </div>
         

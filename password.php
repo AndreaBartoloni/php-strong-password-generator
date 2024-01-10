@@ -19,16 +19,15 @@
 
       
         if(isset($_GET['password'])){
+
             // empty controlla se il campo è vuoto
             if (empty($_GET['password'])) {
                 echo 'Non hai compilato il campo';
-
-
             } elseif ($_GET['password'] < 5) { // se il numero inserito è minore di 5 errore
                 echo 'Caratteri richiesti almeno 5';
 
             }  else { // altrimenti genera
-                $createPassword = generatePassword(intval($_GET['password']));
+                $createPassword = generatePassword(intval($_GET['password']),isset($_GET['letter']), isset($_GET['number']),isset($_GET['simbol']));
             }
         }
     
